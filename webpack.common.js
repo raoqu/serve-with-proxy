@@ -50,7 +50,7 @@ const clientConfig = {
  *        Server Config
  ********************************************************************/
 const serverConfig = {
-  entry: "./src-server/main.ts",
+  entry: "./src/main.ts",
   externals: [NodeExternals()],
   target: "node",
   node: {
