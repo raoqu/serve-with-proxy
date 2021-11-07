@@ -6,22 +6,24 @@
         "strict": true,
 
         "module": "commonjs",
-        "target": "es6",
+        "target": "es5",
         "allowJs": true,
         "sourceMap": true,
 
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "noImplicitReturns": true,
         "noImplicitThis": true,
+        "strictNullChecks":false,
+        "resolveJsonModule": true,
 
-        "baseUrl": "./src-server",
+        "baseUrl": "src",
         "paths": {
             "*": ["../node_modules/*"],
-            "@server/*": ["./*"]
+            //"@server/*": ["./*"]
           },
         "outDir": "./build",
     },
     "include": [
-        "src-server/**/*"
+        "src/**/*"
     ]
 }
