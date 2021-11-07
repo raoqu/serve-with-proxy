@@ -1,4 +1,7 @@
-# nodejs-typescript-nodemon-webpack-opinionated-starter
+# serve-with-proxy
+
+
+--------------------------------------------
 
 `npm run build` to compile the project
 
